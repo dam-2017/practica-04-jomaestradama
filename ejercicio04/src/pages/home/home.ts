@@ -24,23 +24,32 @@ export class HomePage {
     this.nu2=parseInt(this.n2);
     this.resultado = this.nu1+this.nu2+'';
     this.simbolo="+";
+    console.log(this.resultado);
   }
   resta(){
+    this.nu1=parseInt(this.n1);
+    this.nu2=parseInt(this.n2);
     this.resultado= this.nu1- this.nu2+'';
     this.simbolo="-";
   }
 
   division(){
-    //this.resultado= this.n1/ this.n2+'';
+    this.nu1=parseInt(this.n1);
+    this.nu2=parseInt(this.n2);
+    this.resultado= this.n1/ this.n2+'';
     this.simbolo="/";
   }
   multiplicacion(){
-    //this.resultado= this.n1 * this.n2+'';
+    this.nu1=parseInt(this.n1);
+    this.nu2=parseInt(this.n2);
+    this.resultado= this.n1 * this.n2+'';
     this.simbolo="*";
   }
 
   modulo(){
-    //this.resultado= this.n1% this.n2+'';
+    this.nu1=parseInt(this.n1);
+    this.nu2=parseInt(this.n2);
+    this.resultado= this.n1% this.n2+'';
     this.simbolo="%";
   }
 
